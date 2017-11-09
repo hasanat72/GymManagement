@@ -1,0 +1,13 @@
+create database member_DB;
+use member_DB;
+CREATE TABLE member(
+  mid int(11) NOT NULL AUTO_INCREMENT,
+  Name varchar(45) DEFAULT NULL,
+  Fathers_Name varchar(45) DEFAULT NULL,
+  Date_of_Birth  varchar(45) DEFAULT NULL,
+  Contact varchar(45) DEFAULT NULL,
+  E_Mail varchar(100) DEFAULT NULL,
+  Blood_Group varchar(45) DEFAULT NULL,
+  Blood_Pressure varchar(45) DEFAULT NULL,
+  Diabetics varchar(45) DEFAULT NULL,
+  PRIMARY KEY (mid));
